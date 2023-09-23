@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Styled Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="heading">
+        <h2>Array Methods</h2> 
+    </div>
+    <div class="listcontainer">
+        <label >Select Option for displaying Food Items : </label>
+     
+        <ol>
+
+            <option onclick="allItems()" >List all the food items</option>
+            <option  onclick="vegcategory()">List all the food items with 
+                 category vegetables</option>
+            <option onclick="fruitf()">List all the food items with category fruit</option>
+            <option onclick="proteinf()" >List all the food items with category protien</option>
+            <option onclick=" nutsf()" >List all the food items with category nuts</option>
+            <option onclick="grainf()">List all the food items with category grains</option>
+            <option onclick="dairyf()">List all the food items with category dairy</option>
+            <option onclick="calories100f()" >List all the food items with calorie above 100</option>
+            <option onclick="calories0f()">List all the food items with calorie below 100</option>
+            <option onclick="htlp()" >List all the food items with highest protien content to lowest</option>
+            <option onclick="lthc()">List all the food items with lowest cab content to highest</option>
+       
+        
+        
+        
+            </ol>
+       </div>
+    <div id="resulth">
+
+    </div>
+    <table id="myTable">
+        <!-- Table content will be added here -->
+    </table>
+<script src="script.js">
+
+</script>
+
+</body>
+</html>
